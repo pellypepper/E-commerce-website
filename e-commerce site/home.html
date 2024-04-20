@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <h6>It's A Bird, It's A Plane. It's Superlight. <span style="text-decoration: underline;">Shop Men</span> |
+                <span style="text-decoration: underline;">Shop Women</span>
+            </h6>
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+        <div class="header-subtop">
+            <div class="icon_menu">
+                <i id="menuclick" class="fa fa-bars icony" aria-hidden="true"></i>
+
+            </div>
+            <div class="nav-left nav">
+
+
+                <ul>
+                    <li><a class="nav-links" href="" data-target="men">MEN</a> <i class="fa fa-angle-right arrow-right"
+                            id="arrow-right" aria-hidden="true"></i></li>
+                    <li><a class="nav-links" href="" data-target="women">WOMEN</a> <i
+                            class="fa fa-angle-right arrow-right" id="arrow-right" aria-hidden="true"></i>
+                    </li>
+                    <li><a class="nav-links" href="" data-target="kid">KIDS</a> <i class="fa fa-angle-right arrow-right"
+                            id="arrow-right" aria-hidden="true"></i>
+                    </li>
+                    <li><a  href="">SOCKS</a> <i class="fa fa-angle-right arrow-right" id="arrow-right"
+                            aria-hidden="true"></i>
+                    </li>
+                    <li><a class="nav-links" href="" data-target="sale">SALE</a> <i class="fa fa-angle-right arrow-right" id="arrow-right"
+                            aria-hidden="true"></i>
+                    </li>
+                </ul>
+
+
+
+            </div>
+
+
+            <div class="logo">
+                <h2> Allbirds</h2>
+            </div>
+
+            <div class="nav-right nav">
+
+
+                <ul>
+                    <li><a href="">SUSTAINABILITY</a> <i id="arrow-right" class="fa fa-angle-right arrow-right"
+                            aria-hidden="true"></i>
+                    </li>
+                    <li><a href="">RERUN</a> </li>
+                    <li><a href="">STORES</a></li>
+                    <li> <i class="fa fa-search icon" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-user icon" aria-hidden="true"></i></li>
+                    <li> <i class="fa fa-question-circle icon" aria-hidden="true"></i></li>
+
+                </ul>
+                <div id="li-hidden">
+                    <li class="li-hidden"><a href="">Account</a> </li>
+                    <li class="li-hidden"><a href="">Help</a></li>
+
+                </div>
+
+            </div>
+            <div class="icon_right">
+                <li> <i onclick="showMinibar()" class="fa fa-shopping-cart iconn" aria-hidden="true"></i></li>
+                <div id="miniBar" class="icon_rightheader">
+                    <div id="miniBar2" class="rightcontainer">
+                        <div class="righttop">
+                            <i id="remove" class="fa-solid fa-x"></i>
+                            <div class="righttop_mini">
+                                <li> <i class="fa fa-shopping-cart iconn" aria-hidden="true"></i></li>
+                                <span>You're $75 away from free shipping</span>
+                            </div>
+                        </div>
+
+                        <p style="border-bottom: 2px solid rgba(128, 128, 128, 0.533); width: 80%; margin: auto; margin-bottom: 2rem; margin-top: 1rem;"></p>
+
+                        <div class="rightmain">
+                            <h6>Yur Cart Is Empty</h6>
+                            <button>SHOP MEN'S</button>
+                            <button>SHOP WOMEN'S</button>
+                            <button>SHOP SOCKS</button>
+                            <button>SHOP MEN'S SALE</button>
+                            <button>SHOP WOMEN'S SALE</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header_subdown">
+
+            <div class="headersubdown_container">
+                <div class="women_container container " id="women" data-content="women">
+                    <div class="men_header">
+                        <div class="menhead">
+                            <i class="fa fa-angle-left arrow-right"
+                                id="arrow-right " aria-hidden="true"></i> 
+                            <H6 > WOMEN </H6>
+                          </div>
+                        <div class="shoes_container">
+                            <h6 class="nav-linkss" data-target="foot">SHOES <i class="fa fa-angle-right arrow-right"
+                                    id="arrow-right" aria-hidden="true"></i></h6>
+                            <div class="shoes_min shoes_minbox" id="foot" data-content="foot">
+                                <H6 class="arrow_left"><i class="fa fa-angle-left arrow-right"
+                                    id="arrow-right " aria-hidden="true"></i> SHOES</H6>
+
+                                <span>Everyday Sneakers</span>
+                                <span>Active Shoes</span>
+                                <span>Water-Repellent Sneakers</span>
+                                <span>Everyday Sneakers</span>
+                                <span>High Tops</span>
+                                <span>Sale</span>
+                                <span>Shop All</span>
+                                <span>Slips-On</span>
+                                <span>Hiking</span>
+                            </div>
+                        </div>
+
+                        <div class="shoes_container">
+                            <h6 class="nav-linkss" data-target="seller">BEST SELLERS <i
+                                    class="fa fa-angle-right arrow-right" id="arrow-right" aria-hidden="true"></i></h6>
+                            <div class="shoes_min shoes_minbox" id="seller" data-content="seller">
+                                <H6 class="arrow_left"><i class="fa fa-angle-left arrow-right"
+                                    id="arrow-right " aria-hidden="true"></i> BEST SELLERS</H6>
+                                <span>Tree Runner</span>
+                                <span>Tree dasher</span>
+                                <span>Water-Repellent Sneakers</span>
+                                <span>Superlight Tree Runner</span>
+                                <span>Wool Runner</span>
+                                <span>Tree Dasher relay</span>
+                            </div>
+
+
+                        </div>
+
+                        <div class="shoes_container">
+                            <h6 class="nav-linkss" data-target="sneakers">APPAREL & MORE <i
+                                    class="fa fa-angle-right arrow-right" id="arrow-right" aria-hidden="true"></i></h6>
+                            <div class="shoes_min shoes_minbox" id="sneakers" data-content="sneakers">
+                                <H6 class="arrow_left"><i class="fa fa-angle-left arrow-right"
+                                    id="arrow-right " aria-hidden="true"></i> APPAREL</H6>
+                                <span>Everyday Sneakers</span>
+                                <span>Active Shoes</span>
+                                <span>Socks</span>
+                                <span>Tees</span>
+                                <span>Hats</span>
+                                <span>Lace Kits</span>
+                                <span>Gift Cards</spa></span>
+                                <span>Sale</span>
+                            </div>
+                        </div>
+
+                        <div class="shoes_container">
+                            <h6 >FEATURED <i class="fa fa-angle-right arrow-right"
+                                    id="arrow-right" aria-hidden="true"></i></h6>
+                           
+                                <h6 class="men_pics">NEW ARRIVAL</h6>
+                                <h6 class="men_pics2">SHOES FOR SPRING</h6>
+                       
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="kid_container container" id="kid" data-content="kid">
+                    <div class="men_header">
+                        <div class="menhead">
+                            <i class="fa fa-angle-left arrow-right"
+                                id="arrow-right " aria-hidden="true"></i> 
+                            <H6 > SHOES </H6>
+                          </div>
+                        <div class="shoes_container">
+                            <h6 class="nav-linkss" data-target="little">LITTLE KIDS <i
+                                    class="fa fa-angle-right arrow-right" id="arrow-right" aria-hidden="true"></i></h6>
+                            <div class="shoes_min shoes_minbox" id="little" data-content="little">
+                                <H6 class="arrow_left"><i class="fa fa-angle-left arrow-right"
+                                    id="arrow-right " aria-hidden="true"></i> LITTLE KIDS</H6>
+                                <span>Everyday Sneakers</span>
+                                <span>Slip-O</span>
+                                <span>sale</span>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="shoes_container">
+                            <h6 class="nav-linkss" data-target="big">BIG KIDS <i class="fa fa-angle-right arrow-right"
+                                    id="arrow-right" aria-hidden="true"></i></h6>
+                            <div class="shoes_min shoes_minbox" id="big" data-content="big">
+                                <H6 class="arrow_left"><i class="fa fa-angle-left arrow-right"
+                                    id="arrow-right " aria-hidden="true"></i> BIG KIDS</H6>
+                                <span>Everyday Sneakers</span>
+                                <span>Slip-O</span>
+                                <span>sale</span>
+                            </div>
+
+                        </div>
+
+                        <div class="shoes_container">
+                            <h6 >FEATURED <i class="fa fa-angle-right arrow-right"
+                                    id="arrow-right" aria-hidden="true"></i></h6>
+
+                                <h6 class="men_pics"></h6>
+                                <h6 class="men_pics2"></h6>
+                         
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="men_container  container " id="men" data-content="men">
+                    <div class="men_header">
+                        <div class="menhead">
+                            <i class="fa fa-angle-left arrow-right"
+                                id="arrow-right " aria-hidden="true"></i> 
+                            <H6 > MEN </H6>
+                          </div>
+                        <div class="shoes_container">
+                          
+                            <h6 class="nav-linkss" data-target="shoes">SHOES <i class="fa fa-angle-right arrow-right"
+                                    id="arrow-right" aria-hidden="true"></i></h6>
+                            <div class="shoes_min shoes_minbox" id="shoes" data-content="shoes">
+                                <H6 class="arrow_left"><i class="fa fa-angle-left arrow-right"
+                                    id="arrow-right " aria-hidden="true"></i> SHOES</H6>
+                                <span>Everyday Sneakers</span>
+                                <span>Active Shoes</span>
+                                <span>Water-Repellent Sneakers</span>
+                                <span>Everyday Sneakers</span>
+                                <span>Slips-Ons</span>
+                                <span>High Tops</span>
+                                <span>Hiking</span>
+                            </div>
+                        </div>
+
+                        <div class="shoes_container">
+                            <h6 class="nav-linkss" data-target="best">BEST SELLERS <i
+                                    class="fa fa-angle-right arrow-right" id="arrow-right" aria-hidden="true"></i></h6>
+                            <div class="shoes_min shoes_minbox" id="best" data-content="best">
+                                <H6  class="arrow_left"><i class="fa fa-angle-left arrow-right"
+                                    id="arrow-right " aria-hidden="true"></i>  BEST SELLER</H6>
+                                <span>Everyday Sneakers</span>
+                                <span>Active Shoes</span>
+                                <span>Water-Repellent Sneakers</span>
+                                <span> SuperLight Tree Runner</span>
+                                <span>Wool Runner</span>
+                                <span>Tree dasher</span>
+
+                            </div>
+                        </div>
+
+                        <div class="shoes_container">
+                          
+                            <h6 class="nav-linkss" data-target="apparel">APPAREL & MORE <i
+                                    class="fa fa-angle-right arrow-right" id="arrow-right" aria-hidden="true"></i></h6>
+                            <div class="shoes_min shoes_minbox" id="apparel" data-content="apparel">
+                                <H6 class="arrow_left"><i class="fa fa-angle-left arrow-right"
+                                    id="arrow-right " aria-hidden="true"></i>  APPAREL & MORE </H6>
+                                <span>Socks</span>
+                                <span>Underwear</span>
+                                <span>tees</span>
+                                <span>Socks</span>
+                                <span>Tees</span>
+                                <span>Hats</span>
+                                <span>Lace Kits</span>
+                                <span>Gift Cards</spa></span>
+                                <span>Sale</span>
+                            </div>
+                        </div>
+
+                        <div class="shoes_container">
+                            <h6 >FEATURED <i
+                                    class="fa fa-angle-right arrow-right" id="arrow-right" aria-hidden="true"></i></h6>
+                           
+                                <h6 class="men_pics">NEW ARRIVAL</h6>
+                                <h6 class="men_pics2">SHOES FOR SPRING</h6>
+                            
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="sale_container  container " id="sale" data-content="sale">
+                    <div class="men_header">
+                        <div class="menhead contain">
+                            <i class="fa fa-angle-left arrow-right"
+                                id="arrow-right " aria-hidden="true"></i> 
+                            <H6 >SALE </H6>
+                          </div>
+                        <div class="shoes_container">
+                          
+                            <h6 class="nav-linkss  contain" data-target="mensale">MEN'S SALE <i class="fa fa-angle-right arrow-right"
+                                    id="arrow-right" aria-hidden="true"></i></h6>
+                            <div class="shoes_min shoes_minbox" id="mensale" data-content="mensale">
+                                <H6 class="arrow_left"><i class="fa fa-angle-left arrow-right"
+                                    id="arrow-right " aria-hidden="true"></i> MEN'S SALE</H6>
+                                <span>Sale Shoes</span>
+                                <span>Sale Apparel & Shoes</span>
+                               
+                            </div>
+                        </div>
+
+                        <div class="shoes_container">
+                            <h6 class="nav-linkss contain" data-target="womensale">WOMEN'S SALE <i
+                                    class="fa fa-angle-right arrow-right" id="arrow-right" aria-hidden="true"></i></h6>
+                            <div class="shoes_min shoes_minbox" id="womensale" data-content="womensale">
+                                <H6  class="arrow_left"><i class="fa fa-angle-left arrow-right"
+                                    id="arrow-right " aria-hidden="true"></i>  WOMEN'S SALE</H6>
+                                    <span>Sale Shoes</span>
+                                    <span>Sale Apparel & Shoes</span>
+
+                            </div>
+                        </div>
+
+                        <div class="shoes_container">
+                          
+                            <h6 class="nav-linkss contain" data-target="kidsale">KID'S SALE<i
+                                    class="fa fa-angle-right arrow-right" id="arrow-right" aria-hidden="true"></i></h6>
+                            <div class="shoes_min shoes_minbox" id="kidsale" data-content="kidsale">
+                                <H6 class="arrow_left"><i class="fa fa-angle-left arrow-right"
+                                    id="arrow-right " aria-hidden="true"></i>  KID'S SALE</H6>
+                                <span>Socks</span>
+                                <span>Underwear</span>
+                              
+                            </div>
+                        </div>
+
+                        <div class="shoes_container contain">
+                            <h6 >FEATURED <i
+                                    class="fa fa-angle-right arrow-right" id="arrow-right" aria-hidden="true"></i></h6>
+                           
+                                <h6 class="men_pics">NEW ARRIVAL</h6>
+                                <h6 class="men_pics2">SHOES FOR SPRING</h6>
+                            
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="first_container">
+                <div class="first_header">
+                    <div class="first_top">
+                        <div class="searchbox">
+                            <li> <i class="fa fa-search search" aria-hidden="true"></i></li><input
+                                placeholder="Enter Search Term" type="search" name="" id="search">
+                        </div>
+
+                        <div class="first_menu">
+                            <a href="">WOMEN'S SHOES</a>
+                            <a href="">MEN'S SHOES</a>
+                            <a href="">NEW ARRIVAL</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="first_sublayer">
+                        <div class="first_sublayer-container">
+                            <div class="first_minibox">
+                                <h3>FEATURED</h3>
+                                <div class="minitext">
+                                    <Span> Men's Shoes</Span>
+                                    <Span>
+                                        Women's Shoes
+                                    </Span>
+                                    <Span>
+                                        New Arrivals
+                                    </Span>
+                                </div>
+                            </div>
+
+                            <div class="first_subtext">
+                                <h2>Its White Sneaker Season</h2>
+                                <span>lightweight and machine washable styles? Yes please</span>
+                                <div class="btn">
+                                    <button><a href="">SHOP MEN</a></button>
+                                    <button><a href="">SHOP WOMEN</a></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="favorite">
+            <div class="favorite_container">
+                <div class="favorite_center center">
+                    <h2>Our Favorites</h2>
+                </div>
+                <div class="favorite_header">
+                    <div class="favorite_menu">
+                        <div class="tab" data-target="#everyday">
+                            <p>FOR EVERYDAY</p>
+
+                        </div>
+                        <div class="tab" data-target="#travel">
+                            <p>FOR TRAVEL</p>
+
+                        </div>
+                        <div class="tab" data-target="#activity">
+                            <p>FOR ACTIVITY</p>
+
+                        </div>
+                    </div>
+                    <div class="step_class">
+
+                        <div class="step_header">
+                            <div onclick="change(1)" class="steps"></div>
+                            <div onclick="change(-1)" class="steps"></div>
+                            <div class="steps"></div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="favorite_everyday  favorite_active" data-content id="everyday">
+                        <div class="image_class">
+                            <div class="image">
+                                <img src="IMAGES/everyday1.jpeg">
+                                <div class="everyday_hover">
+                                    <button>SHOP MEN</button>
+                                    <button>SHOP WOMEN</button>
+                                </div>
+
+
+                            </div>
+                            <div class="favorite_middle">
+                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
+
+                                <h6>Tree Runner</h6>
+                            </div>
+                            <p style=" border-bottom :2px solid grey; width: 90%; margin: auto;"></p>
+                            <div class="favorite_minidiv">
+                                Breezy, Everyday Sneaker
+                            </div>
+                            <div class="favorite_btn">
+                                <button>Shop Men</button>
+                                <button>Shop Women</button>
+                            </div>
+
+
+                        </div>
+                        <div class="image_class">
+                            <div class="image">
+                                <img src="IMAGES/everyday2.jpeg">
+
+                                <div class="everyday_hover">
+                                    <button>SHOP NOW</button>
+
+                                </div>
+                            </div>
+                            <div class="favorite_middle">
+                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
+
+                                <h6>Tree Runner</h6>
+                            </div>
+                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
+                            <div class="favorite_minidiv">
+                                Breezy, Flat
+                            </div>
+                            <div class="favorite_btn">
+                                <button>Shop Men</button>
+                                <button>Shop Women</button>
+                            </div>
+                        </div>
+                        <div class="image_class">
+                            <div class="image">
+                                <img src="IMAGES/everyday3.jpeg">
+                                <div class="everyday_hover">
+                                    <button>SHOP MEN</button>
+                                    <button>SHOP WOMEN</button>
+                                </div>
+                            </div>
+                            <div class="favorite_middle">
+                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
+
+                                <h6>Tree Runner</h6>
+                            </div>
+                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
+                            <div class="favorite_minidiv">
+                                UnStraight Sneakers
+                            </div>
+                            <div class="favorite_btn">
+                                <button>Shop Men</button>
+                                <button>Shop Women</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="favorite_everyday " data-content id="travel">
+                        <div class="image_class">
+                            <div class="image">
+                                <img src="IMAGES/travel 1.jpeg">
+                                <div class="everyday_hover">
+                                    <button>SHOP MEN</button>
+                                    <button>SHOP WOMEN</button>
+                                </div>
+
+
+                            </div>
+                            <div class="favorite_middle">
+                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
+
+                                <h6>Tree Runner</h6>
+                            </div>
+                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
+                            <div class="favorite_minidiv">
+                                Breezy, Everyday Sneaker
+                            </div>
+                            <div class="favorite_btn">
+                                <button>Shop Men</button>
+                                <button>Shop Women</button>
+                            </div>
+                        </div>
+                        <div class="image_class">
+                            <div class="image">
+                                <img src="IMAGES/travel 2.jpeg">
+                                <div class="everyday_hover">
+                                    <button>SHOP MEN</button>
+                                    <button>SHOP WOMEN</button>
+                                </div>
+
+
+                            </div>
+
+                            <div class="favorite_middle">
+                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
+
+                                <h6>Tree Runner</h6>
+                            </div>
+
+                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
+                            <div class="favorite_minidiv">
+                                Breezy, Everyday Sneaker
+                            </div>
+                            <div class="favorite_btn">
+                                <button>Shop Men</button>
+                                <button>Shop Women</button>
+                            </div>
+                        </div>
+                        <div class="image_class">
+                            <div class="image">
+                                <img src="IMAGES/travel3.jpeg">
+                                <div class="everyday_hover">
+                                    <button>SHOP MEN</button>
+                                    <button>SHOP WOMEN</button>
+                                </div>
+
+
+                            </div>
+
+                            <div class="favorite_middle">
+                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
+
+                                <h6>Tree Runner</h6>
+                            </div>
+
+                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
+                            <div class="favorite_minidiv">
+                                Breezy, Everyday Sneaker
+                            </div>
+                            <div class="favorite_btn">
+                                <button>Shop Men</button>
+                                <button>Shop Women</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="favorite_everyday " data-content id="activity">
+                        <div class="image_class">
+                            <div class="image">
+                                <img src="IMAGES/activity 1.jpeg">
+                                <div class="everyday_hover">
+                                    <button>SHOP MEN</button>
+                                    <button>SHOP WOMEN</button>
+                                </div>
+
+
+                            </div>
+                            <div class="favorite_middle">
+                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
+
+                                <h6>Tree Runner</h6>
+                            </div>
+                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
+                            <div class="favorite_minidiv">
+                                Breezy, Everyday Sneaker
+                            </div>
+                            <div class="favorite_btn">
+                                <button>Shop Men</button>
+                                <button>Shop Women</button>
+                            </div>
+                        </div>
+                        <div class="image_class">
+                            <div class="image">
+                                <img src="IMAGES/activity2.jpeg">
+                                <div class="everyday_hover">
+                                    <button>SHOP MEN</button>
+                                    <button>SHOP WOMEN</button>
+                                </div>
+
+
+                            </div>
+
+                            <div class="favorite_middle">
+                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
+
+                                <h6>Tree Runner</h6>
+                            </div>
+
+                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
+                            <div class="favorite_minidiv">
+                                Breezy, Everyday Sneaker
+                            </div>
+                            <div class="favorite_btn">
+                                <button>Shop Men</button>
+                                <button>Shop Women</button>
+                            </div>
+                        </div>
+
+                        <div class="image_class">
+                            <div class="image">
+                                <img src="IMAGES/activity3.jpeg">
+                                <div class="everyday_hover">
+                                    <button>SHOP MEN</button>
+                                    <button>SHOP WOMEN</button>
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="favorite_middle">
+                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
+
+                                <h6>Tree Runner</h6>
+                            </div>
+
+                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
+                            <div class="favorite_minidiv">
+                                Breezy, Everyday Sneaker
+                            </div>
+                            <div class="favorite_btn">
+                                <button>Shop Men</button>
+                                <button>Shop Women</button>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="summer_bloom">
+            <div class="summer_bloom-container">
+                <div class="bloom_container">
+                    <div class="bloom_header">
+                        <div class="bloom_image">
+                            <img src="IMAGES/bloom .jpg.avif" alt="">
+                        </div>
+
+                        <div class="bloom_text">
+                            <h2>Shoes In Bloom</h2>
+                            <span>Meet our new subttle floral print-guaranteed to put a spring in your step</span>
+                            <button>SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="summer_container">
+                    <div class="summer_header">
+                        <div class="summer_image">
+                            <img src="IMAGES/summer.jpeg" width="300px" alt="">
+                        </div>
+
+                        <div class="summer_text">
+                            <h2>Summer Hues Unlocked</h2>
+                            <span>Brand new colors inspired by Ethopia's stunning Dallol Volcano</span>
+                            <div class="btn">
+                                <button>SHOP MEN</button>
+                                <button>SHOP WOMEN</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="newarrival_container">
+            <div class="arrival_container">
+                <h2>New Arrivals</h2>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="IMAGES/nike5.jpeg" alt="">
+                        <h6>Women's Golf Dashers</h6>
+                        <span>Classic Color, Blizzard / Natural Black</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="IMAGES/nike4.jpeg" alt="">
+                        <h6>Women's Golf Dashers</h6>
+                        <span>Classic Color, Blizzard / Natural Black</span>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="IMAGES/nike3.jpeg" alt="">
+                        <h6>Women's Golf Dashers</h6>
+                        <span>Classic Color, Blizzard / Natural Black</span>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="IMAGES/nike2.jpeg" alt="">
+                        <h6>Women's Golf Dashers</h6>
+                        <span>Classic Color, Blizzard / Natural Black</span>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="IMAGES/nike1.jpeg" alt="">
+                        <h6>Women's Golf Dashers</h6>
+                        <span>Classic Color, Blizzard / Natural Black</span>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="IMAGES/nike6.jpeg" alt="">
+                        <h6>Women's Golf Dashers</h6>
+                        <span>Classic Color, Blizzard / Natural Black</span>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="IMAGES/nike7.jpeg" alt="">
+                        <h6>Women's Golf Dashers</h6>
+                        <span>Classic Color, Blizzard / Natural Black</span>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="IMAGES/nike8.jpeg" alt="">
+                        <h6>Women's Golf Dashers</h6>
+                        <span>Classic Color, Blizzard / Natural Black</span>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="pag">
+                <div class="swiper-button-next pagination2"></div>
+                <div class="swiper-button-prev pagination2"></div>
+                <div class="swiper-pagination pagination"></div>
+            </div>
+
+        </section>
+
+        <section class="cardio_lighten">
+            <div class="summer_bloom-container">
+                <div class="bloom_container">
+                    <div class="bloom_header">
+                        <div class="bloom_image">
+                            <img src="IMAGES/lighten.jpg.avif" alt="">
+                        </div>
+
+                        <div class="bloom_text">
+                            <h2>Lighten Up</h2>
+                            <span>Warmer temps mean new hues in our superlight styles</span>
+                            <div class="btn">
+                                <button>SHOP MEN</button>
+                                <button>SHOP WOMEN</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="summer_container">
+                    <div class="summer_header">
+                        <div class="summer_image">
+                            <img src="IMAGES/cardio.jpeg" width="300px" alt="">
+                        </div>
+
+                        <div class="summer_text">
+                            <h2>From Cardio To Patio</h2>
+                            <span>All the bouncy active shoes you need to keep in stride with the season</span>
+                            <div class="btn">
+                                <button>SHOP MEN</button>
+                                <button>SHOP WOMEN</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="collection">
+            <div class="collection_container">
+                <div class="collection_center">
+                    <h2>Shop The Collection</h2>
+                </div>
+
+                <div class="collecion_header swiper-container">
+                    <div class="collection_box swiper-wrapper">
+                        <div class="swiper-slide box">
+                            <img src="IMAGES/addidas2.jpeg" alt="">
+                            <h6>New Arrivals</h6>
+                            <span>
+                                the latest styles and limited edition colors that you can only find here (while they
+                                last, that is).
+                            </span>
+
+                        </div>
+
+                        <div class="swiper-slide box">
+                            <img src="IMAGES/adiddas1.jpeg" alt="">
+                            <h6>Get Travel Ready</h6>
+                            <span>
+                                Barely-there feel. Light-as-air-fit. Meet our lightest and lowest carbon footprint to
+                                date
+                            </span>
+
+                        </div>
+
+                        <div class="swiper-slide box">
+                            <img src="IMAGES/addidas3.jpeg" alt="">
+                            <h6>Travel Essentials</h6>
+                            <span>
+                                versatile style plus packable design equals shoes that are always good to go
+                            </span>
+
+                        </div>
+
+                        <div class="swiper-slide box">
+                            <img src="IMAGES/addidas4.jpeg" alt="">
+                            <h6>New Arrivals</h6>
+                            <span>
+                                the latest styles and limited edition colors that you can only find here (while they
+                                last, that is).
+                            </span>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+        </section>
+
+        <section class="background_container">
+            <div class="backgroundimage-container">
+                <div class="backgroundimage_header">
+                    <div class="backgroundimage"></div>
+                    <div class="backgroundimage"></div>
+                    <div class="backgroundimage"></div>
+                    <div class="backgroundimage"></div>
+                    <div class="backgroundimage"></div>
+                    <div class="backgroundimage"></div>
+                    <div class="backgroundimage"></div>
+                    <div class="backgroundimage"></div>
+                    <div class="backgroundimage"></div>
+                    <div class="backgroundimage"></div>
+                </div>
+                <div class="backgroundimage_header">
+                    <div class="backgroundimage1"></div>
+                    <div class="backgroundimage1"></div>
+                    <div class="backgroundimage1"></div>
+                    <div class="backgroundimage1"></div>
+                    <div class="backgroundimage1"></div>
+                    <div class="backgroundimage1"></div>
+                    <div class="backgroundimage1"></div>
+                    <div class="backgroundimage1"></div>
+                    <div class="backgroundimage1"></div>
+                    <div class="backgroundimage1"></div>
+                </div>
+            </div>
+
+            <div class="background_text">
+                <div class="background_header">
+                    <h2>More Updates About Less Carbon</h2>
+                    <span>Reducing the carbon footprint of our products is at the heart of everything we do. And we've
+                        got good news: we continue to make headway. Read about our progress from 2022 in our latest
+                        Flight Status report</span>
+                    <button>OUR SUSTAINABILITY STRATEGY</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="allbird_box">
+            <div class="allbird_center">
+                <h2>Allbirds Sustainability Initiatives</h2>
+            </div>
+            <div class="allbird_subheader">
+                <div class="allbird_container ">
+                    <div class="allbird_header ">
+                        <div class="slide">
+                            <img src="IMAGES/allbird1.jpeg">
+                            <h6> Allbirds ReRun
+                            </h6>
+                            <span>Our Version of a sustainability report is here, hightlighting our progress across a
+                                variety of areas in 2022.</span>
+                        </div>
+
+                        <div class=" slide">
+                            <img src="IMAGES/allbird2.jpeg" alt="">
+                            <h6> Allbirds ReRun
+                            </h6>
+                            <span>Our Version of a sustainability report is here, hightlighting our progress across a
+                                variety of areas in 2022.</span>
+
+                        </div>
+
+                        <div class="slide">
+                            <img src="IMAGES/allbird3.jpeg" alt="">
+                            <h6> Allbirds ReRun
+                            </h6>
+                            <span>Our Version of a sustainability report is here, hightlighting our progress across a
+                                variety of areas in 2022.</span>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="signup">
+            <div class="signup_container">
+                <div class="signup_header">
+                    <h2>Want First Dibs?</h2>
+
+                    <span>Join our email list and be the first to know about new limited edition products material
+                        innovations, and lots of other fund updates.</span>
+
+                    <div class="signup_box">
+                        <input type="text" placeholder="Enter Your Email Addres">
+                        <button>SIGN UP</button>
+                    </div>
+
+                    <p>Note: you can opt at any time . See our <span
+                            style="text-decoration: underline; font-weight: bolder;">Privacy Policy</span> and <span
+                            style="text-decoration: underline; font-weight: bolder">Terms</span> </p>
+                </div>
+            </div>
+        </section>
+        <section class="approach">
+            <div class="approach_container">
+                <div class="approach_center">
+                    <h2>The Allbirds Approach</h2>
+                </div>
+                <div class="approach_header">
+                    <div class="approach_text">
+                        <h2>Wear-All-Day Comfort</h2>
+                        <span>Lightweight, bouncy and wildly comfortable, allbirds shoes make any outing feel effortless
+                            . slip in, lace up or slide them n and enjpt the comfty aupport</span>
+                        <p style="text-decoration: underline;">Learn More</p>
+                    </div>
+
+                    <div class="approach_text">
+                        <h2>Wear-All-Day Comfort</h2>
+                        <span>Lightweight, bouncy and wildly comfortable, allbirds shoes make any outing feel effortless
+                            . slip in, lace up or slide them n and enjpt the comfty aupport</span>
+                        <p style="text-decoration: underline;">Learn More</p>
+                    </div>
+
+                    <div class="approach_text">
+                        <h2>Wear-All-Day Comfort</h2>
+                        <span>Lightweight, bouncy and wildly comfortable, allbirds shoes make any outing feel effortless
+                            . slip in, lace up or slide them n and enjpt the comfty aupport</span>
+                        <p style="text-decoration: underline;">Learn More</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_signup">
+            <p>Enter your email to stay in touch</p>
+            <div class="footer_input">
+                <input type="text"> <button>Sign up</button>
+            </div>
+        </div>
+
+        <div class="footer_middle">
+            <div class="footer_middleheader">
+                <div class="help_header">
+                    <h6>HELP</h6>
+                    <span>1-888-963-8944</span>
+                    <span>1-888-963-8944</span>
+                    <span>Help@allbirds.com</span>
+                    <span>Returns/Exchanges</span>
+                    <span>FAQ/Contact US</span>
+                    <span>afterpay</span>
+                </div>
+
+                <div class="help_header">
+                    <h6>Shoes</h6>
+                    <span>1-888-963-8944</span>
+                    <span>1-888-963-8944</span>
+                    <span>Help@allbirds.com</span>
+                    <span>Returns/Exchanges</span>
+                    <span>FAQ/Contact US</span>
+                    <span>afterpay</span>
+                    <span>Returns/Exchanges</span>
+                    <span>FAQ/Contact US</span>
+                    <span>afterpay</span>
+                </div>
+
+                <div class="help_header">
+                    <h6>Company</h6>
+                    <span>Our Shoes</span>
+                    <span>Our Story</span>
+                    <span>Help@allbirds.com</span>
+                    <span>Returns/Exchanges</span>
+                    <span>FAQ/Contact US</span>
+                    <span>afterpay</span>
+                    <span>Press</span>
+                    <span>Contact US</span>
+                    <span>Shoe Care</span>
+                    <span>Our Story</span>
+                    <span>Help@allbirds.com</span>
+                    <span>Returns/Exchanges</span>
+                    <span>FAQ/Contact US</span>
+                    <span>afterpay</span>
+                    <span>Press</span>
+                    <span>Contact US</span>
+                    <span>Shoe Care</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_last">
+            <div class="footer_lastheader last">
+                <h6>FOLLOW THE FLOCK</h6>
+                <span>
+                    Exclusive offers, a heads up on new things, and sightings of Allbirds in the wild. Oh , we have cute sheep , too |allbirds
+                </span>
+                <div class="footer_icon">
+                    
+                    <i class="fa-brands  fa-facebook" aria-hidden="true"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-solid fa-x"></i>
+                </div>
+            </div>
+
+            <div class="footer_lastheader last1">
+                <i class="fa-solid fa-certificate"></i>
+            </div>
+
+            <div class="footer_lastheader last2">
+                <div>
+                    <i class="fa-brands  fa-facebook" aria-hidden="true"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-solid fa-x"></i>
+                 </div>
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <p> 2024 Allbirds, Inc . All Rights reserved. <span style="text-decoration: underline;">Terms</span> <span style="text-decoration: underline;">Privacy</span> &  <span style="text-decoration: underline;">Accessibility</span></p>
+            <span style="text-decoration: underline;">Do Not Sell My Personal Information</span>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="home.js"></script>
+</body>
+
+</html>
