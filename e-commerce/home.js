@@ -1,3 +1,5 @@
+// menu display max width 768px
+
 var navMenu = document.querySelectorAll(".nav")
 var menuClick = document.getElementById("menuclick")
 
@@ -20,17 +22,9 @@ menuClick.addEventListener('click', function(){
 })
 
 
-var navLinks = document.querySelectorAll('.nav-link');
-
-navLinks.forEach(function(navLink) {
-    navLink.addEventListener('click', function() {
-        // Check if window width is less than or equal to 768px
-       
-    });
-});
 
 
-
+// favorite display
 
 const tabs = document.querySelectorAll('[data-target]'),
      tabContents = document.querySelectorAll('[data-content]')
@@ -51,6 +45,9 @@ tabs.forEach(tab =>{
         tab.classList.add('favorite_active')
     })
 })
+
+
+// dispay sub menu ,  remove navmenu max width 768px 
 document.addEventListener("DOMContentLoaded", function() {
     const navLinks = document.querySelectorAll('.nav-links');
 
@@ -65,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
               navMenus.classList.remove("show");
           });
 
-          // Toggle between different Font Awesome classes
+       
           
       }
 
@@ -94,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
       });
     });
-
+//when clicked remove previous menu
 
   // Adding event listener to elements with class "menhead"
   const menheadElements = document.querySelectorAll('.menhead');
@@ -109,7 +106,8 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 
-  
+ // display submenu option  and return previous menu 
+
 
   document.addEventListener("DOMContentLoaded", function() {
     const navLinks = document.querySelectorAll('.nav-linkss');

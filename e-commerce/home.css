@@ -5,7 +5,7 @@
 }
 body{
     width: 100%;
-    overflow-x: hidden;
+
     background-color: white;
 
 
@@ -301,13 +301,27 @@ top: 80px;
 
  .first_sublayer-container{
     height: 500px;
-     
-    background-image: url(IMAGES/first.jpeg);
+     animation:  15s infinite change ease-in-out;
     background-position: 50% 50%;
     background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url(IMAGES/first.jpeg);
+    transition: ease-in-out 2s;
+ }
+ @keyframes change {
+ 
+
+    0%{
+        background-image: url(IMAGES/summer.jpeg);
+    }
+    50%{
+        background-image: url(IMAGES/bloom\ .jpg.avif);
+    }
+    100%{
+       
+    }
  }
 .first_subtext{
     text-align: right;
@@ -1068,7 +1082,7 @@ footer{
 }
 
  @media screen and (max-width: 768px) {
-    bo
+  
     .men_header{
         width: 100%;
         margin: auto;
@@ -1227,29 +1241,35 @@ footer{
      }
      .searchbox{
         width: 90%;
+        border-radius: 10px;
         margin: auto;
-       margin-bottom: .5rem;
+        border: 2px solid black;
+         overflow: hidden;
+
+   
         
      }
   
      .searchbox input{
-        width: 100%;
-       height: 25px;
+        width: 90%;
+  
        border-radius: 50px;
        outline: none;
        border-color: inherit;
+       border: none;
+       margin-left: .5rem;
      }
      .search{
-        position: absolute;
+   
        
+         
         outline: none;
-        font-size: .9rem;
-        padding: 6px;
-       height: 25px;
+        font-size: 1rem;
+       padding: 5px;
 
     }
     input::placeholder{
-       text-indent: 25px;
+       text-indent: 5px;
        font-size: .8rem;
     }
     .first_menu{
@@ -1387,7 +1407,7 @@ footer{
 @media screen and (max-width: 480px) {
     body{
         
-        overflow-x: hidden;
+       
        
     
     
