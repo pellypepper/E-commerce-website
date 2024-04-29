@@ -1240,19 +1240,22 @@ footer{
        
      }
      .searchbox{
+      
         width: 90%;
         border-radius: 10px;
         margin: auto;
         border: 2px solid black;
          overflow: hidden;
-
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
    
         
      }
   
      .searchbox input{
-        width: 90%;
-  
+        
+        background-color: inherit;
        border-radius: 50px;
        outline: none;
        border-color: inherit;
@@ -1261,8 +1264,8 @@ footer{
      }
      .search{
    
-       
-         
+       color: black;
+         background-color: inherit;
         outline: none;
         font-size: 1rem;
        padding: 5px;
