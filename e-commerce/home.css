@@ -1249,12 +1249,13 @@ footer{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        overflow: hidden;
    
         
      }
   
      .searchbox input{
-        
+        padding: 0;
         background-color: inherit;
        border-radius: 50px;
        outline: none;
@@ -1262,13 +1263,21 @@ footer{
        border: none;
        margin-left: .5rem;
      }
-     .search{
-   
-       color: black;
-         background-color: inherit;
+     .searchbox button{
+        background-color: black;
+        
+        height: 30px;
+        width: 30px;
+        margin-left: -.2rem;
+        margin-top: -.2rem;
+     }
+   .search{
+    padding: 2px;
+       color: white;
+         background-color: black;
         outline: none;
         font-size: 1rem;
-       padding: 5px;
+       
 
     }
     input::placeholder{
