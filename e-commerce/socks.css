@@ -261,14 +261,125 @@
 
 }
 
-.frequent-header span{
+
+
+.frequent-subcontainer{
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+}
+.frequent-subheader{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.frequent-subheader i{
     font-size: 1.3rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
 }
 
+.frequent-header span{
+    font-size: 1.3rem;
+  
+}
+.frequent-box{
+    margin-top: 1rem;
+    width: 100%;
+}
+.frequent-box-layer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+}
+.frequent-box-layer P{
+    margin-top: .2rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.box
+.box-open .rotatebtn{
+    
+    transform: rotate(90deg);
 
-
+}
+.chat-container{
+    z-index: 999;
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    cursor: pointer;
+}
+.chat-header{
+    width: 70px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.chat-wrapper{
+    transition: .5s ease-in-out;
+    position: absolute;
+    right: -1000%;
+    border-radius: 5px;
+    bottom: 8px;
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+.chat-subwrapper{
+    padding: 20px;
+    text-align: center;
+   
+}
+.chat-subwrapper-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.chat-input-container{
+    margin-top: 1.5rem;
+}
+.chat-input {
+    margin-bottom: 1.5rem;
+  
+}
+.chat-input input{
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    border-color: rgba(229, 229, 229, 0.303);
+}
+.chat-subwrapper span{
+    font-size: 10px;
+   
+}
+.chat-bottom{
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatshow{
+    right: 0;
+}
+.chat-input-first input{
+    background-color:  rgba(229, 229, 229, 0.303);
+}
 @media screen and (max-width: 768px) {
     main{
        
@@ -309,7 +420,7 @@
         display: flex;
     }
  .filter-header{
-    
+    transition: .5s ease-in-out;
     padding: 20px;
     background-color: white;
     height: 100%;

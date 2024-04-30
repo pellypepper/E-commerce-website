@@ -212,7 +212,12 @@ top: 80px;
 
     
  }
+ #miniBar{
+    transition: .5s ease-in-out;
+ }
+ 
  .icon_rightheader{
+  
     width: 100%;
     background-color: rgba(0,0,0,.5);
     height: 100vh;
@@ -226,7 +231,7 @@ top: 80px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: right 8s ease-in-out;
+   
  }
 .rightcontainer{
     background-color: white;

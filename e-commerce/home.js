@@ -265,5 +265,39 @@ function filterMenu(){
 });
 
 
+function toggleVisibility() {
+  // Get the next sibling element, which should be the frequent-box
+  var frequentBox = this.nextElementSibling;
+  var rotateArrow = this.querySelector(".rotatebtn"); // Select the rotatebtn within the clicked header
+  
+  // Toggle the display style of the frequent-box
+  if (frequentBox.style.display === "none" || frequentBox.style.display === "") {
+    frequentBox.style.display = "block";
+    rotateArrow.style.transform = "rotate(90deg)";
+  } else {
+    frequentBox.style.display = "none";
+    rotateArrow.style.transform = "none"; // Set transform to none to reset rotation
+  }
+}
+
+var headers = document.querySelectorAll('.frequent-subheader');
+
+// Attach a click event listener to each frequent-subheader
+headers.forEach(function(header) {
+  header.addEventListener('click', toggleVisibility);
+});
+
+
+function chatToggle(){
+  var chatHeader = document.getElementById("chat-wrapper")
+
+  chatHeader.classList.add("chatshow")
+
+  const exit = document.getElementById("exit")
+  exit.addEventListener("click", function(){
+    chatHeader.classList.remove("chatshow")
+  })
+}
+
  
 
