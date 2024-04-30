@@ -1,0 +1,95 @@
+.rerun-container{
+    width: 100%;
+    height: max-content;
+}
+
+.rerun-header{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 40px;
+ 
+    margin: auto;
+}
+
+.rerun-left{
+    width: 100%;
+    
+
+    
+}
+
+.rerun-left-container{
+    height: 800px;
+}
+
+.rerun-left-container img{
+    width: 100%;
+    height: 800px;
+}
+
+.rerun-right{
+    width: 100%;
+   
+}
+.rerun-right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+ 
+}
+.rerun-right-container h6{
+    font-size: 1.8rem;
+    margin-bottom: 1.3rem;
+}
+
+.rerun-right-subcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 1.2rem;
+}
+.rerun-right-subcontainer span{
+    font-weight: bolder;
+    margin-top: 1.4rem;
+}
+.rerun-right-subcontainer button{
+    margin-top: 1.4rem;
+    height: 50px; 
+    width: 50%;
+    background-color: inherit;
+    color: black;
+}
+.rerun-right-subcontainer button:hover a{
+
+    color: white;
+}
+.rerun-right-subcontainer button:hover {
+
+   background-color: black;
+}
+
+@media screen and (max-width: 480px){
+    .rerun-header{
+        grid-template-columns: 100%;
+      
+    }
+    .rerun-right-container{
+        justify-content: flex-start;
+        text-align: center;
+    }
+    .rerun-right-subcontainer button{
+        margin: auto;
+        margin-top: 1.8rem;
+    }
+    .rerun-left-container{
+        height: 500px;
+    }
+    .rerun-left-container img{
+        height: 500px;
+    }
+    .rerun-right-container{
+        height: 500px;
+    }
+}
