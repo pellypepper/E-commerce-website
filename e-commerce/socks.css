@@ -1,0 +1,401 @@
+
+.socks-container{
+    width: 100%;
+    height: 700px;
+    padding: 0;
+    background-color: inherit;
+
+}
+.socks-subcontainer{
+    margin-top: 2rem;
+}
+
+.socks-home {
+
+    margin-top: 4rem;
+   
+    display: grid;
+
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100px 650px;
+    grid-template-areas: 
+        "socks-home-container socks-bundle-container" 
+        "socks-home-container socks-menu-container";
+}
+
+.socks-home-container{
+    padding: 15px;
+    height: 750px;
+   
+     grid-area: socks-home-container;
+    
+     
+}
+.socks-home-header{
+    display: block;
+}
+.socks-home-header p{
+    font-size: 13px;
+}
+.socks-home-header h6{
+        font-size: 18px;
+}
+.filter-container{
+    display: flex;
+    flex-direction: column;
+}
+.filter-mini{
+    border: 1px solid black;
+    width: max-content;
+    display: none;
+    padding: 5px;
+}
+.filter-top{
+    visibility: hidden;
+}.filter-mini i{
+    margin-left: .5rem;
+}
+.filter-header{
+    display: block;
+}
+.filter-header h6{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.sizes-button-container{
+    margin-top: 1rem;
+    width: 100%;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+.size-btn{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     flex-wrap: wrap;
+    width: 50%;
+    border: 2px solid black;
+   height: 70px;
+   font-size: 10px;
+}
+.size-btn:hover{
+    background-color: rgba(0, 0, 0, 0.215);
+}
+
+.filter-header .size-btn-s{
+    width: 70%;
+    margin-bottom: .5rem;
+}
+.filter-header .size-btn-xl{
+    margin-left: -2rem;
+    width: 70%;
+}
+.filter-header .size-btn-m{
+    
+    width: 100%;
+}
+.filter-header .size-btn-l{
+    
+    width: 100%;
+}
+
+.hue-color-container{
+    margin-top: 1rem;
+
+}
+.hue-color{
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+}
+.color-circle{
+    width: 30px;
+    height: 30px;
+
+   border-radius: 50%;
+}
+.hue-color span{
+    margin-left: .5rem;
+}
+.hue-grey{
+    background-color: grey;
+}
+.hue-beige{
+    background-color: beige;
+}
+.hue-green{
+    background-color: green;
+}
+.hue-black{
+    background-color: black;
+}
+.hue-white{
+    background-color: rgba(241, 232, 232, 0.339);
+}
+.hue-purple{
+    background-color: purple;
+}
+.socks-bundle-container{
+    grid-area: socks-bundle-container;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    height: 100px;
+    background-color: rgba(222, 184, 135, 0.533);
+}
+.socks-bundle-container h6{
+    font-size: 1rem;
+}
+.socks-bundle-container span{
+    font-size: 13px;
+}
+
+.socks-menu-container{
+    grid-area: socks-menu-container;
+
+    height: 650px;
+    
+}
+.socks-menu-header{
+    display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
+}
+.socks-menu{
+    padding: 20px;
+    width: 33.33%;
+    height: max-content;
+  
+}
+.socks-menu>img{
+    width: 100%;
+    height: 300px;
+}
+
+.socks-menu h6{
+    font-size: .9rem;
+    margin-top: .5rem;
+}
+.socks-menu p{
+    font-weight: lighter;
+    margin-top: .5rem;
+}
+.socks-menu:hover{
+   box-shadow: 0px 0px 24px 0px rgb(147, 143, 143);
+}
+.socks-menu:hover .quick-add-container{
+    display: block;
+}
+
+.socks-menu-minibox{
+    margin-top: .5rem;
+    width: 100%;
+    padding: 0;
+}
+.socks-menu-minibox-container{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 8px;
+    overflow: hidden;
+}
+
+.minibox{
+    width: 40px;
+    height: 40px;
+    
+}
+.minibox img{
+    width: 100%;
+    height: 40px;
+}
+.quick-add-container{
+   margin-top: 1rem; 
+   display: none;
+}
+.quick-add-container:hover{
+    display: block;
+} 
+.quick-add-header{
+    margin: auto;
+   
+}
+
+.quick-add-container .sizes-button-container{
+
+
+
+}
+.quick-add-header .size-btn{
+    width: 100%;
+}
+.plus{
+    visibility: hidden;
+}
+.newarrival_container{
+
+    margin-left: 1rem;
+
+  
+}
+.frequent-container{
+    width: 100%;
+    padding: 20px;
+}
+
+.frequent-header{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.frequent-header h6{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+
+}
+
+.frequent-header span{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    main{
+       
+    }
+    section{
+     
+    }
+    body{
+        position: relative;
+    }
+    .socks-container{
+   
+        margin-bottom: 30rem;
+    }
+    .socks-home{
+        margin-top: 2rem;
+    }
+    .socks-home-container{
+        justify-content: space-between;
+        display: flex;
+    }
+    .socks-home{
+    
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 100px max-content;
+      
+        grid-template-areas:  "socks-home-container" "socks-bundle-container" "socks-menu-container";
+    }
+    .filter-container{
+     
+    }
+    .filter-mini:hover{
+        background-color: rgba(0, 0, 0, 0.215);
+    }
+    .filter-mini{
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+    }
+ .filter-header{
+    
+    padding: 20px;
+    background-color: white;
+    height: 100%;
+   right: -100%;
+    position: absolute;
+    top: 0;
+    
+    width: 40%; }
+
+    .filter-top{
+        visibility: visible;
+    }
+    .filter-top i{
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .filtershow{
+        right: 0;
+    }
+    .socks-bundle-container{
+        margin-top: -2rem;
+    }
+    .socks-menu-container{
+        height: max-content;
+        padding: 10px;
+        background-color: white;
+    }
+    .socks-menu{
+        
+        width: 50%;
+        
+        margin-top: 1.5rem;
+     
+      
+    }
+    .socks-menu h6{
+     
+    }
+    .socks-menu>img{
+        margin: 0;
+        padding: 0px;
+        height: 200px;
+        width: 100%;
+    }
+    .minibox{
+       
+        width: 30px;
+        margin-right: .5rem;
+    }
+    .socks-menu .minibox img{
+        border-radius: 50%;
+       
+        height: 20px;
+    }
+    .sizes-button-container{
+        margin-top: 2px;
+    }
+    .socks-menu .size-btn{
+        font-size: 10px;
+        height: 40px;
+      
+    }
+    .quick-add-container{
+      
+        margin-top: -.5rem;
+        display: block;
+        background-color: white;
+    }
+    .quick-add-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: 30px;
+        margin-top: .5rem;
+
+       border-top: 1px grey solid;
+    }
+    .plus{
+        visibility: visible;
+    }
+    .quick-add-container .sizes-button-container{
+       display: none;
+       padding: 20px;
+    }
+
+
+}

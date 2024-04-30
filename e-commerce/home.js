@@ -225,3 +225,45 @@ var swiper = new Swiper(".swiper-container", {
       bar1.classList.remove("hide")
     })
   }
+
+function filterMenu(){
+  var filter = document.getElementById("filter-header")
+  var arrowFilter = document.getElementById("arrow-filter")
+
+  filter.classList.toggle("filtershow")
+   
+  arrowFilter.addEventListener("click", function(){
+    filter.classList.remove("filtershow")
+  })
+}document.querySelectorAll('.quick-add-top').forEach(function(quickAddTop) {
+  quickAddTop.addEventListener('click', function() {
+      // Find the size buttons within the same .socks-menu element
+      var sizeButtons = quickAddTop.closest('.socks-menu').querySelectorAll('.size-button');
+      
+      // Toggle the display of each size button
+      sizeButtons.forEach(function(sizeButton) {
+          if (sizeButton.style.display === 'none') {
+              sizeButton.style.display = 'grid';
+          } else {
+              sizeButton.style.display = 'none';
+          }
+        
+      });
+
+      // Toggle the Font Awesome icon
+      const quick = quickAddTop.closest('.socks-menu').querySelectorAll(".plus");
+      quick.forEach(function(quickAddTp) {
+          if (quickAddTp.classList.contains('fa-plus')) {
+              quickAddTp.classList.remove('fa-plus');
+              quickAddTp.classList.add('fa-minus'); // Change to another Font Awesome icon
+          } else {
+              quickAddTp.classList.remove('fa-minus');
+              quickAddTp.classList.add( 'fa-plus'); // Change back to the original Font Awesome icon
+          }
+      });
+  });
+});
+
+
+ 
+

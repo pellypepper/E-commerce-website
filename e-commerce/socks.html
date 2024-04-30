@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Allbirds Homepage</title>
+    <title>Allbirds Eco-Friendly Socks, Made with Natural Materials</title>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="socks.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -38,7 +38,7 @@
                     <li><a class="nav-links" href="" data-target="kid">KIDS</a> <i class="fa fa-angle-right arrow-right"
                             id="arrow-right" aria-hidden="true"></i>
                     </li>
-                    <li><a  href="socks.html">SOCKS</a> <i class="fa fa-angle-right arrow-right" id="arrow-right"
+                    <li><a  href="">SOCKS</a> <i class="fa fa-angle-right arrow-right" id="arrow-right"
                             aria-hidden="true"></i>
                     </li>
                     <li><a class="nav-links" href="" data-target="sale">SALE</a> <i class="fa fa-angle-right arrow-right" id="arrow-right"
@@ -50,11 +50,9 @@
 
             </div>
 
-
             <div class="logo">
-               <a href="home.html"> <h2> Allbirds</h2></a>
-            </div>
-
+                <a href="home.html"> <h2> Allbirds</h2></a>
+             </div>
             <div class="nav-right nav">
 
 
@@ -403,382 +401,282 @@
         </div>
     </header>
 
-
     <main>
-        <section>
-            <div class="first_container">
-                <div class="first_header">
-                    <div class="first_top">
-                        <div class="searchbox">
-                            <button><i class="fa fa-search search" aria-hidden="true"></i></button>
-                            <input placeholder="Enter Search Term" type="search" name="" id="search">
+        <section class="socks-container">
+            <div class="socks-subcontainer">
+                <div class="socks-home">
+                    <div class="socks-home-container">
+                        <div class="socks-home-header">
+                            <p>Home/</p> <h6>Socks</h6>
+                        </div>
+
+                        <div class="filter-container">
+                            <div onclick="filterMenu()"  class="filter-mini">
+                                <p>FILTERS</p><i class="fa-solid fa-compass"></i>
+                            </div>
+                            <div class="filter-header" id="filter-header">
+                                <div class="filter-top">
+                                    <i id="arrow-filter" class="fa-solid fa-arrow-right arrow-filter"></i>
+                                    <p style="border-bottom: 1.5px solid rgba(0, 0, 0, 0.675); width: 100%; margin: auto; margin-top: 1rem;"></p>
+                             
+                                </div>
+                               <h6>Filter By</h6>
+                                <p style="border-bottom: 1.5px solid rgba(0, 0, 0, 0.675); width: 100%; margin: auto; margin-top: 1rem;"></p>
+                                <h6>SIZES</h6>
+                                <div class="sizes-button-container">
+                                    <div class="size-btn size-btn-s">
+                                        <h6>S</h6>
+                                        <span>(WS-7)</span>
+                                    </div>
+                                    <div class="size-btn size-btn-xl">
+                                        <h6>XL</h6>
+                                        <span>(M-13-14)</span>
+                                    </div>
+                                    <div class="size-btn size-btn-m">
+                                        <h6>M</h6>
+                                        <span>(W8-10 / M8)</span>
+                                    </div>
+                                    <div class="size-btn size-btn-l">
+                                        <h6>L</h6>
+                                        <span>(W11/ M9-12)</span>
+                                    </div>
+                                </div>
+                                <p style="border-bottom: 1.5px solid rgba(0, 0, 0, 0.675); width: 100%; margin: auto; margin-top: 1rem;"></p>
+                              
+                                <h6>HUE</h6>
+                                <div class="hue-color-container">
+                                    <div class="hue-color ">
+                                        <p class="color-circle hue-grey"></p>
+                                       <span>Grey</span>
+                                    </div>
+                                    <div class="hue-color ">
+                                        <p class="color-circle hue-beige"></p>
+                                       <span>Beige</span>
+                                    </div>
+                                    <div class="hue-color ">
+                                        <p class="color-circle hue-green"></p>
+                                       <span>Green</span>
+                                    </div>
+                                    <div class="hue-color ">
+                                        <p class="color-circle hue-black" ></p>
+                                       <span>Black</span>
+                                    </div>
+                                    <div class="hue-color ">
+                                        <p class="color-circle hue-white"></p>
+                                       <span>White</span>
+                                    </div>
+                                    <div class="hue-color ">
+                                        <p class="color-circle hue-purple" ></p>
+                                       <span>Purple</span>
+                                    </div>
+                                </div>
+
                             
-                        </div>
-
-                        <div class="first_menu">
-                            <a href="">WOMEN'S SHOES</a>
-                            <a href="">MEN'S SHOES</a>
-                            <a href="">NEW ARRIVAL</a>
+                            </div>
 
                         </div>
-
                     </div>
 
-                    <div class="first_sublayer">
-                        <div class="first_sublayer-container">
-                            <div class="first_minibox">
-                                <h3>FEATURED</h3>
-                                <div class="minitext">
-                                    <Span> Men's Shoes</Span>
-                                    <Span>
-                                        Women's Shoes
-                                    </Span>
-                                    <Span>
-                                        New Arrivals
-                                    </Span>
-                                </div>
-                            </div>
+                    <div class="socks-bundle-container">
+                        <h6>Socks Bundle</h6>
+                        <span>Buy 3 or more, get 20%. Discount applied at checkout. Exclusions apply</span>
+                    </div>
 
-                            <div class="first_subtext">
-                                <h2>Its White Sneaker Season</h2>
-                                <span>lightweight and machine washable styles? Yes please</span>
-                                <div class="btn">
-                                    <button><a href="">SHOP MEN</a></button>
-                                    <button><a href="">SHOP WOMEN</a></button>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="socks-menu-container">
+                           <div class="socks-menu-header">
+                                <div class="socks-menu">
+                                    <img src="IMAGES/photo-1615486364462-ef6363adbc18.webp" alt="">
+                                    <h6>Anytime No Show Sock</h6>
+                                    <p>$14</p>
+                                    <div class="socks-menu-minibox">
+                                        <div class="socks-menu-minibox-container">
+                                            <div class="minibox">
+                                                <img src="IMAGES/premium_photo-1684952850099-396e7183bc6c.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/premium_photo-1666299535983-c65c115b6f2c.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1632691085121-fc6eb35d5665.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1631180543602-727e1197619d.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1586350977771-b3b0abd50c82.webp" alt="">
+                                            </div>
 
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1504659913281-61817e6e2e9b.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1582966772680-860e372bb558.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="quick-add-container">
+                                        <div class="quick-add-header ">
+                                             <div  class="quick-add-top">
+                                                <h6>QUICK ADD </h6>
+                                                <i id="quick-add"  class="fa-solid fa-plus plus"></i>
+                                             </div>
+                                             <div class="sizes-button-container size-button">
+                                                <div class="size-btn size-btn-s">
+                                                    <h6>S</h6>
+                                                    <span>(WS-7)</span>
+                                                </div>
+                                                <div class="size-btn size-btn-xl">
+                                                    <h6>XL</h6>
+                                                    <span>(M-13-14)</span>
+                                                </div>
+                                                <div class="size-btn">
+                                                    <h6>M</h6>
+                                                    <span>(W8-10 / M8)</span>
+                                                </div>
+                                                <div class="size-btn">
+                                                    <h6>L</h6>
+                                                    <span>(W11/ M9-12)</span>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <div class="socks-menu">
+                                    <img src="IMAGES/photo-1586350977771-b3b0abd50c82.webp" alt="">
+                                    <h6>Anytime No Show Sock</h6>
+                                    <p>$14</p>
+                                    <div class="socks-menu-minibox">
+                                        <div class="socks-menu-minibox-container">
+                                            <div class="minibox">
+                                                <img src="IMAGES/premium_photo-1684952850099-396e7183bc6c.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/premium_photo-1666299535983-c65c115b6f2c.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1632691085121-fc6eb35d5665.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1631180543602-727e1197619d.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1586350977771-b3b0abd50c82.webp" alt="">
+                                            </div>
+
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1504659913281-61817e6e2e9b.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1582966772680-860e372bb558.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="quick-add-container">
+                                        <div class="quick-add-header">
+                                            <div class="quick-add-top">
+                                                <h6>QUICK ADD </h6>
+                                                <i id="quick-add"  class="fa-solid fa-plus plus"></i>
+                                             </div>
+                                            <div class="sizes-button-container size-button">
+                                                <div class="size-btn size-btn-s">
+                                                    <h6>S</h6>
+                                                    <span>(WS-7)</span>
+                                                </div>
+                                                <div class="size-btn size-btn-xl">
+                                                    <h6>XL</h6>
+                                                    <span>(M-13-14)</span>
+                                                </div>
+                                                <div class="size-btn">
+                                                    <h6>M</h6>
+                                                    <span>(W8-10 / M8)</span>
+                                                </div>
+                                                <div class="size-btn">
+                                                    <h6>L</h6>
+                                                    <span>(W11/ M9-12)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <div class="socks-menu">
+                                    <img src="IMAGES/photo-1640025867572-f6b3a8410c81.webp" alt="">
+                                    <h6>Anytime No Show Sock</h6>
+                                    <p>$14</p>
+                                    <div class="socks-menu-minibox">
+                                        <div class="socks-menu-minibox-container">
+                                            <div class="minibox">
+                                                <img src="IMAGES/premium_photo-1684952850099-396e7183bc6c.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/premium_photo-1666299535983-c65c115b6f2c.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1632691085121-fc6eb35d5665.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1631180543602-727e1197619d.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1586350977771-b3b0abd50c82.webp" alt="">
+                                            </div>
+
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1504659913281-61817e6e2e9b.webp" alt="">
+                                            </div>
+                                            <div class="minibox">
+                                                <img src="IMAGES/photo-1582966772680-860e372bb558.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="quick-add-container">
+                                        <div class="quick-add-header">
+                                            <div class="quick-add-top">
+                                                <h6>QUICK ADD </h6>
+                                                <i id="quick-add" class="fa-solid fa-plus plus"></i>
+                                             </div>
+                                            <div class="sizes-button-container size-button">
+                                                <div class="size-btn size-btn-s">
+                                                    <h6>S</h6>
+                                                    <span>(WS-7)</span>
+                                                </div>
+                                                <div class="size-btn size-btn-xl">
+                                                    <h6>XL</h6>
+                                                    <span>(M-13-14)</span>
+                                                </div>
+                                                <div class="size-btn">
+                                                    <h6>M</h6>
+                                                    <span>(W8-10 / M8)</span>
+                                                </div>
+                                                <div class="size-btn">
+                                                    <h6>L</h6>
+                                                    <span>(W11/ M9-12)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                           </div>
                     </div>
                 </div>
             </div>
-        </section>
 
-
-        <section class="favorite">
-            <div class="favorite_container">
-                <div class="favorite_center center">
-                    <h2>Our Favorites</h2>
-                </div>
-                <div class="favorite_header">
-                    <div class="favorite_menu">
-                        <div class="tab" data-target="#everyday">
-                            <p>FOR EVERYDAY</p>
-
-                        </div>
-                        <div class="tab" data-target="#travel">
-                            <p>FOR TRAVEL</p>
-
-                        </div>
-                        <div class="tab" data-target="#activity">
-                            <p>FOR ACTIVITY</p>
-
-                        </div>
-                    </div>
-                    <div class="step_class">
-
-                        <div class="step_header">
-                            <div onclick="change(1)" class="steps"></div>
-                            <div onclick="change(-1)" class="steps"></div>
-                            <div class="steps"></div>
-
-
-                        </div>
-                    </div>
-
-
-                    <div class="favorite_everyday  favorite_active" data-content id="everyday">
-                        <div class="image_class">
-                            <div class="image">
-                                <img src="IMAGES/everyday1.jpeg">
-                                <div class="everyday_hover">
-                                    <button>SHOP MEN</button>
-                                    <button>SHOP WOMEN</button>
-                                </div>
-
-
-                            </div>
-                            <div class="favorite_middle">
-                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
-
-                                <h6>Tree Runner</h6>
-                            </div>
-                            <p style=" border-bottom :2px solid grey; width: 90%; margin: auto;"></p>
-                            <div class="favorite_minidiv">
-                                Breezy, Everyday Sneaker
-                            </div>
-                            <div class="favorite_btn">
-                                <button>Shop Men</button>
-                                <button>Shop Women</button>
-                            </div>
-
-
-                        </div>
-                        <div class="image_class">
-                            <div class="image">
-                                <img src="IMAGES/everyday2.jpeg">
-
-                                <div class="everyday_hover">
-                                    <button>SHOP NOW</button>
-
-                                </div>
-                            </div>
-                            <div class="favorite_middle">
-                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
-
-                                <h6>Tree Runner</h6>
-                            </div>
-                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
-                            <div class="favorite_minidiv">
-                                Breezy, Flat
-                            </div>
-                            <div class="favorite_btn">
-                                <button>Shop Men</button>
-                                <button>Shop Women</button>
-                            </div>
-                        </div>
-                        <div class="image_class">
-                            <div class="image">
-                                <img src="IMAGES/everyday3.jpeg">
-                                <div class="everyday_hover">
-                                    <button>SHOP MEN</button>
-                                    <button>SHOP WOMEN</button>
-                                </div>
-                            </div>
-                            <div class="favorite_middle">
-                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
-
-                                <h6>Tree Runner</h6>
-                            </div>
-                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
-                            <div class="favorite_minidiv">
-                                UnStraight Sneakers
-                            </div>
-                            <div class="favorite_btn">
-                                <button>Shop Men</button>
-                                <button>Shop Women</button>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
-
-                    <div class="favorite_everyday " data-content id="travel">
-                        <div class="image_class">
-                            <div class="image">
-                                <img src="IMAGES/travel 1.jpeg">
-                                <div class="everyday_hover">
-                                    <button>SHOP MEN</button>
-                                    <button>SHOP WOMEN</button>
-                                </div>
-
-
-                            </div>
-                            <div class="favorite_middle">
-                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
-
-                                <h6>Tree Runner</h6>
-                            </div>
-                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
-                            <div class="favorite_minidiv">
-                                Breezy, Everyday Sneaker
-                            </div>
-                            <div class="favorite_btn">
-                                <button>Shop Men</button>
-                                <button>Shop Women</button>
-                            </div>
-                        </div>
-                        <div class="image_class">
-                            <div class="image">
-                                <img src="IMAGES/travel 2.jpeg">
-                                <div class="everyday_hover">
-                                    <button>SHOP MEN</button>
-                                    <button>SHOP WOMEN</button>
-                                </div>
-
-
-                            </div>
-
-                            <div class="favorite_middle">
-                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
-
-                                <h6>Tree Runner</h6>
-                            </div>
-
-                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
-                            <div class="favorite_minidiv">
-                                Breezy, Everyday Sneaker
-                            </div>
-                            <div class="favorite_btn">
-                                <button>Shop Men</button>
-                                <button>Shop Women</button>
-                            </div>
-                        </div>
-                        <div class="image_class">
-                            <div class="image">
-                                <img src="IMAGES/travel3.jpeg">
-                                <div class="everyday_hover">
-                                    <button>SHOP MEN</button>
-                                    <button>SHOP WOMEN</button>
-                                </div>
-
-
-                            </div>
-
-                            <div class="favorite_middle">
-                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
-
-                                <h6>Tree Runner</h6>
-                            </div>
-
-                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
-                            <div class="favorite_minidiv">
-                                Breezy, Everyday Sneaker
-                            </div>
-                            <div class="favorite_btn">
-                                <button>Shop Men</button>
-                                <button>Shop Women</button>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-
-
-                    <div class="favorite_everyday " data-content id="activity">
-                        <div class="image_class">
-                            <div class="image">
-                                <img src="IMAGES/activity 1.jpeg">
-                                <div class="everyday_hover">
-                                    <button>SHOP MEN</button>
-                                    <button>SHOP WOMEN</button>
-                                </div>
-
-
-                            </div>
-                            <div class="favorite_middle">
-                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
-
-                                <h6>Tree Runner</h6>
-                            </div>
-                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
-                            <div class="favorite_minidiv">
-                                Breezy, Everyday Sneaker
-                            </div>
-                            <div class="favorite_btn">
-                                <button>Shop Men</button>
-                                <button>Shop Women</button>
-                            </div>
-                        </div>
-                        <div class="image_class">
-                            <div class="image">
-                                <img src="IMAGES/activity2.jpeg">
-                                <div class="everyday_hover">
-                                    <button>SHOP MEN</button>
-                                    <button>SHOP WOMEN</button>
-                                </div>
-
-
-                            </div>
-
-                            <div class="favorite_middle">
-                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
-
-                                <h6>Tree Runner</h6>
-                            </div>
-
-                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
-                            <div class="favorite_minidiv">
-                                Breezy, Everyday Sneaker
-                            </div>
-                            <div class="favorite_btn">
-                                <button>Shop Men</button>
-                                <button>Shop Women</button>
-                            </div>
-                        </div>
-
-                        <div class="image_class">
-                            <div class="image">
-                                <img src="IMAGES/activity3.jpeg">
-                                <div class="everyday_hover">
-                                    <button>SHOP MEN</button>
-                                    <button>SHOP WOMEN</button>
-                                </div>
-
-
-                            </div>
-
-
-                            <div class="favorite_middle">
-                                <i class="fa fa-eye-slash" aria-hidden="true"></i>
-
-                                <h6>Tree Runner</h6>
-                            </div>
-
-                            <p style="border-bottom: 2px solid grey; width: 90%; margin: auto;"></p>
-                            <div class="favorite_minidiv">
-                                Breezy, Everyday Sneaker
-                            </div>
-                            <div class="favorite_btn">
-                                <button>Shop Men</button>
-                                <button>Shop Women</button>
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-
-
-                </div>
-            </div>
-        </section>
-
-        <section class="summer_bloom">
-            <div class="summer_bloom-container">
-                <div class="bloom_container">
-                    <div class="bloom_header">
-                        <div class="bloom_image">
-                            <img src="IMAGES/bloom .jpg.avif" alt="">
-                        </div>
-
-                        <div class="bloom_text">
-                            <h2>Shoes In Bloom</h2>
-                            <span>Meet our new subttle floral print-guaranteed to put a spring in your step</span>
-                            <button>SHOP NOW</button>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="summer_container">
-                    <div class="summer_header">
-                        <div class="summer_image">
-                            <img src="IMAGES/summer.jpeg" width="300px" alt="">
-                        </div>
-
-                        <div class="summer_text">
-                            <h2>Summer Hues Unlocked</h2>
-                            <span>Brand new colors inspired by Ethopia's stunning Dallol Volcano</span>
-                            <div class="btn">
-                                <button>SHOP MEN</button>
-                                <button>SHOP WOMEN</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
         </section>
 
         <section class="newarrival_container">
             <div class="arrival_container">
-                <h2>New Arrivals</h2>
+                <h2>Best of Allbirds</h2>
             </div>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -842,196 +740,17 @@
 
         </section>
 
-        <section class="cardio_lighten">
-            <div class="summer_bloom-container">
-                <div class="bloom_container">
-                    <div class="bloom_header">
-                        <div class="bloom_image">
-                            <img src="IMAGES/lighten.jpg.avif" alt="">
-                        </div>
-
-                        <div class="bloom_text">
-                            <h2>Lighten Up</h2>
-                            <span>Warmer temps mean new hues in our superlight styles</span>
-                            <div class="btn">
-                                <button>SHOP MEN</button>
-                                <button>SHOP WOMEN</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="summer_container">
-                    <div class="summer_header">
-                        <div class="summer_image">
-                            <img src="IMAGES/cardio.jpeg" width="300px" alt="">
-                        </div>
-
-                        <div class="summer_text">
-                            <h2>From Cardio To Patio</h2>
-                            <span>All the bouncy active shoes you need to keep in stride with the season</span>
-                            <div class="btn">
-                                <button>SHOP MEN</button>
-                                <button>SHOP WOMEN</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+        <section class="frequent-container">
+            <div class="frequent-header">
+                <h6>Frequently Asked Questions</h6>
+                <p style="border-bottom: 1px solid grey; width: 100%; margin: auto;"></p>
+                <span>BUNDLE & SAVE 20% ON SOCKS</span>
 
             </div>
         </section>
 
-        <section class="collection">
-            <div class="collection_container">
-                <div class="collection_center">
-                    <h2>Shop The Collection</h2>
-                </div>
-
-                <div class="collecion_header swiper-container">
-                    <div class="collection_box swiper-wrapper">
-                        <div class="swiper-slide box">
-                            <img src="IMAGES/addidas2.jpeg" alt="">
-                            <h6>New Arrivals</h6>
-                            <span>
-                                the latest styles and limited edition colors that you can only find here (while they
-                                last, that is).
-                            </span>
-
-                        </div>
-
-                        <div class="swiper-slide box">
-                            <img src="IMAGES/adiddas1.jpeg" alt="">
-                            <h6>Get Travel Ready</h6>
-                            <span>
-                                Barely-there feel. Light-as-air-fit. Meet our lightest and lowest carbon footprint to
-                                date
-                            </span>
-
-                        </div>
-
-                        <div class="swiper-slide box">
-                            <img src="IMAGES/addidas3.jpeg" alt="">
-                            <h6>Travel Essentials</h6>
-                            <span>
-                                versatile style plus packable design equals shoes that are always good to go
-                            </span>
-
-                        </div>
-
-                        <div class="swiper-slide box">
-                            <img src="IMAGES/addidas4.jpeg" alt="">
-                            <h6>New Arrivals</h6>
-                            <span>
-                                the latest styles and limited edition colors that you can only find here (while they
-                                last, that is).
-                            </span>
-
-                        </div>
-                    </div>
 
 
-
-                </div>
-        </section>
-
-        <section class="background_container">
-            <div class="backgroundimage-container">
-                <div class="backgroundimage_header">
-                    <div class="backgroundimage"></div>
-                    <div class="backgroundimage"></div>
-                    <div class="backgroundimage"></div>
-                    <div class="backgroundimage"></div>
-                    <div class="backgroundimage"></div>
-                    <div class="backgroundimage"></div>
-                    <div class="backgroundimage"></div>
-                    <div class="backgroundimage"></div>
-                    <div class="backgroundimage"></div>
-                    <div class="backgroundimage"></div>
-                </div>
-                <div class="backgroundimage_header">
-                    <div class="backgroundimage1"></div>
-                    <div class="backgroundimage1"></div>
-                    <div class="backgroundimage1"></div>
-                    <div class="backgroundimage1"></div>
-                    <div class="backgroundimage1"></div>
-                    <div class="backgroundimage1"></div>
-                    <div class="backgroundimage1"></div>
-                    <div class="backgroundimage1"></div>
-                    <div class="backgroundimage1"></div>
-                    <div class="backgroundimage1"></div>
-                </div>
-            </div>
-
-            <div class="background_text">
-                <div class="background_header">
-                    <h2>More Updates About Less Carbon</h2>
-                    <span>Reducing the carbon footprint of our products is at the heart of everything we do. And we've
-                        got good news: we continue to make headway. Read about our progress from 2022 in our latest
-                        Flight Status report</span>
-                    <button>OUR SUSTAINABILITY STRATEGY</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="allbird_box">
-            <div class="allbird_center">
-                <h2>Allbirds Sustainability Initiatives</h2>
-            </div>
-            <div class="allbird_subheader">
-                <div class="allbird_container ">
-                    <div class="allbird_header ">
-                        <div class="slide">
-                            <img src="IMAGES/allbird1.jpeg">
-                            <h6> Allbirds ReRun
-                            </h6>
-                            <span>Our Version of a sustainability report is here, hightlighting our progress across a
-                                variety of areas in 2022.</span>
-                        </div>
-
-                        <div class=" slide">
-                            <img src="IMAGES/allbird2.jpeg" alt="">
-                            <h6> Allbirds ReRun
-                            </h6>
-                            <span>Our Version of a sustainability report is here, hightlighting our progress across a
-                                variety of areas in 2022.</span>
-
-                        </div>
-
-                        <div class="slide">
-                            <img src="IMAGES/allbird3.jpeg" alt="">
-                            <h6> Allbirds ReRun
-                            </h6>
-                            <span>Our Version of a sustainability report is here, hightlighting our progress across a
-                                variety of areas in 2022.</span>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="signup">
-            <div class="signup_container">
-                <div class="signup_header">
-                    <h2>Want First Dibs?</h2>
-
-                    <span>Join our email list and be the first to know about new limited edition products material
-                        innovations, and lots of other fund updates.</span>
-
-                    <div class="signup_box">
-                        <input type="text" placeholder="Enter Your Email Addres">
-                        <button>SIGN UP</button>
-                    </div>
-
-                    <p>Note: you can opt at any time . See our <span
-                            style="text-decoration: underline; font-weight: bolder;">Privacy Policy</span> and <span
-                            style="text-decoration: underline; font-weight: bolder">Terms</span> </p>
-                </div>
-            </div>
-        </section>
         <section class="approach">
             <div class="approach_container">
                 <div class="approach_center">
@@ -1062,7 +781,12 @@
                 </div>
             </div>
         </section>
+
+
+    
     </main>
+
+
     <footer>
         <div class="footer_signup">
             <p>Enter your email to stay in touch</p>
@@ -1158,8 +882,11 @@
     </footer>
 
 
+
+
+   
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="home.js"></script>
 </body>
-
 </html>

@@ -52,7 +52,7 @@ header{
 }
 
 .header-top{
-     background-color: black;
+     background-color: rgb(21, 151, 123);
      width: 100%;
      color: white;
      height: 40px;
@@ -176,6 +176,16 @@ top: 80px;
     background-size: cover;
     color: white;
     cursor: pointer;
+}
+.sustainability_container  .men_pics{
+    width: 400px;
+    height: 120px;
+
+}
+.sustainability_container  .men_pics2{
+    width: 400px;
+    height: 120px;
+    
 }
 .nav-left{
   
@@ -1269,7 +1279,7 @@ footer{
         height: 35px;
         width: 30px;
         margin-left: -.2rem;
-        margin-top: -.2rem;
+ 
      }
    .search{
     padding: 2px;
